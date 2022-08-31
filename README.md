@@ -7,9 +7,15 @@ Run this command to start NodeJs and MongoDB Container.
 
 Clone the repository 
 ```bash
-gut clone 
+gut clone https://github.com/rusik0001/RBAC-Backend.git
 ```
 
+Navigate to the folder 
+```bash
+cd RBAC-Backend
+```
+
+Run
 ```bash
 docker-compose up -d --build
 ```
